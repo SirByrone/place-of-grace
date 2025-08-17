@@ -212,7 +212,10 @@ const InclusionPage = () => {
               </div>
             </div>
             <div className="training-image">
-              <img src="/assets/inclusion/community-training.jpg" alt="Community training session" />
+              <div className="training-placeholder">
+                <span>🏫</span>
+                <p>Community Training</p>
+              </div>
             </div>
           </div>
         </section>

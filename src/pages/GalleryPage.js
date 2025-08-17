@@ -46,9 +46,9 @@ const GalleryPage = () => {
     },
     { 
       id: 4,
-      src: "/assets/photos/children/children-playing-new-2024.jpg", 
+      src: "/assets/photos/events/children-playing-new-2024.jpg", 
       caption: "Children enjoying playtime and recreational activities",
-      category: "children",
+      category: "events",
       alt: "Happy children engaged in various play activities and games together",
       date: "2024"
     },
@@ -94,130 +94,218 @@ const GalleryPage = () => {
       alt: "Children in festive attire celebrating Christmas with decorations and holiday spirit",
       date: "2024"
     },
+    { 
+      id: 10,
+      src: "/assets/photos/events/community-outreach-2024.jpg", 
+      caption: "Community outreach and engagement",
+      category: "events",
+      alt: "Children and staff participating in community outreach activities and programs",
+      date: "2024"
+    },
     
     // Facilities Category
     { 
-      id: 10,
-      src: "/assets/photos/facilities/main-building-2024.jpg", 
-      caption: "Our main facility building",
-      category: "facilities",
-      alt: "Exterior view of the main Place of Grace building with modern architecture",
-      date: "2024"
-    },
-    { 
       id: 11,
-      src: "/assets/photos/facilities/dormitory-interior-1-2024.jpg", 
-      caption: "Inside view of our dormitory - sleeping area",
+      src: "/assets/photos/facilities/child-rescue.jpg", 
+      caption: "Child rescue and emergency response",
       category: "facilities",
-      alt: "Interior view of the dormitory showing multiple beds arranged neatly with personal spaces",
+      alt: "Emergency response vehicle and equipment for child rescue operations",
       date: "2024"
     },
     { 
       id: 12,
-      src: "/assets/photos/facilities/dormitory-interior-2-2024.jpg", 
-      caption: "Dormitory common area and storage",
+      src: "/assets/photos/facilities/corridors-2024.jpg", 
+      caption: "Clean and safe corridors",
       category: "facilities",
-      alt: "Common area within the dormitory with storage facilities and seating arrangements",
+      alt: "Well-maintained corridors providing safe passage throughout the facility",
       date: "2024"
     },
     { 
       id: 13,
-      src: "/assets/photos/facilities/dormitory-interior-3-2024.jpg", 
-      caption: "Dormitory study and rest area",
+      src: "/assets/photos/facilities/dormitory-interior-1-2024.jpg", 
+      caption: "Comfortable dormitory living spaces",
       category: "facilities",
-      alt: "Quiet study and rest area within the dormitory for children's personal time",
+      alt: "Clean and organized dormitory with comfortable sleeping arrangements",
       date: "2024"
     },
     { 
       id: 14,
-      src: "/assets/photos/facilities/corridors-2024.jpg", 
-      caption: "Clean and well-lit corridors connecting our facilities",
+      src: "/assets/photos/facilities/dormitory-interior-2-2024.jpg", 
+      caption: "Additional dormitory facilities",
       category: "facilities",
-      alt: "Wide, clean corridors with good lighting connecting different areas of the facility",
+      alt: "Another view of the dormitory showing sleeping arrangements and storage",
       date: "2024"
     },
     { 
       id: 15,
-      src: "/assets/photos/facilities/neat-bed-2024.jpg", 
-      caption: "Well-maintained and neat dormitory bed",
+      src: "/assets/photos/facilities/dormitory-interior-3-2024.jpg", 
+      caption: "Dormitory interior design",
       category: "facilities",
-      alt: "A perfectly made bed showcasing the cleanliness and organization of our dormitory facilities",
+      alt: "Interior view of dormitory showing layout and organization",
       date: "2024"
     },
     { 
       id: 16,
-      src: "/assets/photos/facilities/where-it-started-2024.jpg", 
-      caption: "Where our journey began - the foundation of Place of Grace",
+      src: "/assets/photos/facilities/education-support.jpg", 
+      caption: "Educational support facilities",
       category: "facilities",
-      alt: "Historical view of where Place of Grace Children's Home first started its mission",
+      alt: "Classroom and educational support areas for children's learning",
       date: "2024"
     },
-    
-    // Activities Category
     { 
       id: 17,
-      src: "/assets/photos/activities/art-therapy-2024.jpg", 
-      caption: "Art therapy and creative expression",
-      category: "activities",
-      alt: "Children engaged in art therapy sessions with paint, brushes, and creative materials",
+      src: "/assets/photos/facilities/founding-story.jpg", 
+      caption: "The founding story of our home",
+      category: "facilities",
+      alt: "Historical photos and documents showing the founding of our children's home",
       date: "2024"
     },
     { 
       id: 18,
-      src: "/assets/photos/activities/computer-class-2024.jpg", 
-      caption: "Computer literacy and skills development",
-      category: "activities",
-      alt: "Children learning computer skills in a modern computer lab with educational software",
+      src: "/assets/photos/facilities/main-building-2024.jpg", 
+      caption: "Main building exterior",
+      category: "facilities",
+      alt: "Exterior view of the main building showing the architecture and grounds",
       date: "2024"
     },
     { 
       id: 19,
-      src: "/assets/photos/activities/outdoor-activities-2024.jpg", 
-      caption: "Outdoor activities and sports",
-      category: "activities",
-      alt: "Children participating in outdoor sports and recreational activities in the playground",
+      src: "/assets/photos/facilities/neat-bed-2024.jpg", 
+      caption: "Neat and organized sleeping areas",
+      category: "facilities",
+      alt: "Well-organized sleeping area with neat bed arrangements",
+      date: "2024"
+    },
+    { 
+      id: 20,
+      src: "/assets/photos/facilities/nutrition-healthcare.jpg", 
+      caption: "Nutrition and healthcare facilities",
+      category: "facilities",
+      alt: "Kitchen and healthcare areas ensuring proper nutrition and medical care",
+      date: "2024"
+    },
+    { 
+      id: 21,
+      src: "/assets/photos/facilities/psychosocial-support.jpg", 
+      caption: "Psychosocial support areas",
+      category: "facilities",
+      alt: "Counseling and support areas for children's emotional and mental well-being",
+      date: "2024"
+    },
+    { 
+      id: 22,
+      src: "/assets/photos/facilities/skills-development.jpg", 
+      caption: "Skills development facilities",
+      category: "facilities",
+      alt: "Workshops and areas for developing practical skills and vocational training",
+      date: "2024"
+    },
+    { 
+      id: 23,
+      src: "/assets/photos/facilities/where-it-started-2024.jpg", 
+      caption: "Where our journey began",
+      category: "facilities",
+      alt: "Historical photos showing the original location and early days of our home",
+      date: "2024"
+    },
+    
+    // Gallery Category
+    { 
+      id: 24,
+      src: "/assets/photos/gallery/collection-1-2024.jpg", 
+      caption: "Photo collection showcasing our journey",
+      category: "gallery",
+      alt: "Collection of photos showing various aspects of our children's home",
+      date: "2024"
+    },
+    { 
+      id: 25,
+      src: "/assets/photos/gallery/collection-2-2024.jpg", 
+      caption: "Memories and moments captured",
+      category: "gallery",
+      alt: "Another collection of memorable moments and activities",
+      date: "2024"
+    },
+    { 
+      id: 26,
+      src: "/assets/photos/gallery/collection-3-2024.jpg", 
+      caption: "Special moments and celebrations",
+      category: "gallery",
+      alt: "Collection of special events and celebrations at our home",
+      date: "2024"
+    },
+    { 
+      id: 27,
+      src: "/assets/photos/gallery/collection-4-2024.jpg", 
+      caption: "Daily life and activities",
+      category: "gallery",
+      alt: "Photos capturing the daily life and activities of our children",
+      date: "2024"
+    },
+    { 
+      id: 28,
+      src: "/assets/photos/gallery/collection-5-2024.jpg", 
+      caption: "Growth and development",
+      category: "gallery",
+      alt: "Photos showing the growth and development of our children over time",
+      date: "2024"
+    },
+    { 
+      id: 29,
+      src: "/assets/photos/gallery/collection-6-2024.jpg", 
+      caption: "Community and connections",
+      category: "gallery",
+      alt: "Photos showing community connections and relationships built over time",
       date: "2024"
     },
     
     // Team Category
     { 
-      id: 20,
+      id: 30,
+      src: "/assets/photos/team/founder-with-child-2024.jpg", 
+      caption: "Our founder with one of our children",
+      category: "team",
+      alt: "Founder of the children's home spending time with a child, showing care and connection",
+      date: "2024"
+    },
+    { 
+      id: 31,
       src: "/assets/photos/team/johnston-kioko.jpg", 
-      caption: "Johnston Kioko - Founder & Director",
+      caption: "Johnston Kioko - Dedicated staff member",
       category: "team",
-      alt: "Johnston Kioko, the founder and director of Place of Grace Children's Home",
+      alt: "Johnston Kioko, a dedicated staff member, smiling and ready to help children",
       date: "2024"
     },
     { 
-      id: 21,
-      src: "/assets/photos/team/maria-kioko.jpg", 
-      caption: "Maria Kioko - Program Coordinator",
-      category: "team",
-      alt: "Maria Kioko, program coordinator at Place of Grace Children's Home",
-      date: "2024"
-    },
-    { 
-      id: 22,
+      id: 32,
       src: "/assets/photos/team/julius-ndukuthyo.jpg", 
-      caption: "Julius Ndukuthyo - Operations Manager",
+      caption: "Julius Ndukuthyo - Caring team member",
       category: "team",
-      alt: "Julius Ndukuthyo, operations manager at Place of Grace Children's Home",
+      alt: "Julius Ndukuthyo, a caring team member, showing dedication to children's welfare",
       date: "2024"
     },
     { 
-      id: 23,
+      id: 33,
       src: "/assets/photos/team/kevin-mutai.jpg", 
-      caption: "Kevin Mutai - Child Care Specialist",
+      caption: "Kevin Mutai - Supportive staff member",
       category: "team",
-      alt: "Kevin Mutai, child care specialist at Place of Grace Children's Home",
+      alt: "Kevin Mutai, a supportive staff member, committed to children's development",
       date: "2024"
     },
     { 
-      id: 24,
-      src: "/assets/photos/team/ruth-munanie.jpg", 
-      caption: "Ruth Munanie - Education Coordinator",
+      id: 34,
+      src: "/assets/photos/team/maria-kioko.jpg", 
+      caption: "Maria Kioko - Nurturing caregiver",
       category: "team",
-      alt: "Ruth Munanie, education coordinator at Place of Grace Children's Home",
+      alt: "Maria Kioko, a nurturing caregiver, providing love and support to children",
+      date: "2024"
+    },
+    { 
+      id: 35,
+      src: "/assets/photos/team/ruth-munanie.jpg", 
+      caption: "Ruth Munanie - Dedicated team member",
+      category: "team",
+      alt: "Ruth Munanie, a dedicated team member, showing commitment to children's well-being",
       date: "2024"
     }
   ], []);
@@ -254,7 +342,7 @@ const GalleryPage = () => {
     // First apply media type filter
     if (mediaTypeFilter === 'all' || mediaTypeFilter === 'photos') {
       // Add photos based on category filter
-      if (selectedCategory === 'all' || selectedCategory === 'photos' || selectedCategory === 'children' || selectedCategory === 'events' || selectedCategory === 'facilities' || selectedCategory === 'activities' || selectedCategory === 'team') {
+      if (selectedCategory === 'all' || selectedCategory === 'photos' || selectedCategory === 'children' || selectedCategory === 'events' || selectedCategory === 'facilities' || selectedCategory === 'activities' || selectedCategory === 'team' || selectedCategory === 'gallery') {
         mediaItems.push(...images.map(img => ({ ...img, type: 'photo' })));
       }
     }

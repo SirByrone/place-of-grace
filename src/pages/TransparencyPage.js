@@ -8,21 +8,24 @@ const TransparencyPage = () => {
       title: "Annual Financial Report 2024",
       description: "Comprehensive financial statements and audit report for the fiscal year 2024.",
       fileSize: "2.3 MB",
-      downloadUrl: "/assets/financial-report-2024.pdf"
+      downloadUrl: null,
+      status: "Coming Soon"
     },
     {
       year: "2023",
       title: "Annual Financial Report 2023",
       description: "Financial statements and audit report for the fiscal year 2023.",
       fileSize: "1.8 MB",
-      downloadUrl: "/assets/financial-report-2023.pdf"
+      downloadUrl: null,
+      status: "Coming Soon"
     },
     {
       year: "2022",
       title: "Annual Financial Report 2022",
       description: "Financial statements and audit report for the fiscal year 2022.",
       fileSize: "2.1 MB",
-      downloadUrl: "/assets/financial-report-2022.pdf"
+      downloadUrl: null,
+      status: "Coming Soon"
     }
   ];
 
@@ -31,19 +34,22 @@ const TransparencyPage = () => {
       title: "Child Protection Policy",
       description: "Our comprehensive policy ensuring the safety, protection, and well-being of all children in our care.",
       lastUpdated: "January 2024",
-      downloadUrl: "/assets/child-protection-policy.pdf"
+      downloadUrl: null,
+      status: "Coming Soon"
     },
     {
       title: "Safeguarding Policy",
       description: "Guidelines and procedures for protecting children from harm and abuse.",
       lastUpdated: "January 2024",
-      downloadUrl: "/assets/safeguarding-policy.pdf"
+      downloadUrl: null,
+      status: "Coming Soon"
     },
     {
       title: "Financial Management Policy",
       description: "Our policies and procedures for financial management and accountability.",
       lastUpdated: "March 2024",
-      downloadUrl: "/assets/financial-management-policy.pdf"
+      downloadUrl: null,
+      status: "Coming Soon"
     }
   ];
 
@@ -132,9 +138,13 @@ const TransparencyPage = () => {
                 <p>{report.description}</p>
                 <div className="report-footer">
                   <span className="file-size">{report.fileSize}</span>
-                  <a href={report.downloadUrl} className="download-link" download>
-                    Download PDF
-                  </a>
+                  {report.downloadUrl ? (
+                    <a href={report.downloadUrl} className="download-link" download>
+                      Download PDF
+                    </a>
+                  ) : (
+                    <span className="status-badge">{report.status}</span>
+                  )}
                 </div>
               </div>
             ))}
@@ -157,9 +167,13 @@ const TransparencyPage = () => {
                 <p>{policy.description}</p>
                 <div className="policy-footer">
                   <span className="last-updated">Last updated: {policy.lastUpdated}</span>
-                  <a href={policy.downloadUrl} className="download-link" download>
-                    View Policy
-                  </a>
+                  {policy.downloadUrl ? (
+                    <a href={policy.downloadUrl} className="download-link" download>
+                      View Policy
+                    </a>
+                  ) : (
+                    <span className="status-badge">{policy.status}</span>
+                  )}
                 </div>
               </div>
             ))}
