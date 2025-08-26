@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import LoadingSpinner from './components/LoadingSpinner';
+import EnhancedSEO from './components/EnhancedSEO';
 import './App.css';
 
 // Lazy load pages for better performance
@@ -37,6 +38,21 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <EnhancedSEO 
+          title="Place of Grace Community Centre - Empowering Children & Communities in Kenya"
+          description="Place of Grace Community Centre is a non-profit organization dedicated to providing education, healthcare, and support to vulnerable children and communities in Kenya."
+          keywords={[
+            'Place of Grace Community Centre',
+            'children home Kenya',
+            'orphanage Nairobi',
+            'charity Kenya children',
+            'donate children Kenya',
+            'vulnerable children support',
+            'education Kenya',
+            'community development'
+          ]}
+          url="/"
+        />
         <Navbar />
         <main className="main-content">
           <Suspense fallback={<LoadingSpinner />}>

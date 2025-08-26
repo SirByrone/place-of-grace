@@ -49,6 +49,29 @@
     <meta name="HandheldFriendly" content="true" />
     <meta name="format-detection" content="telephone=no" />
     
+    <!-- Google Search Console Verification - Replace VERIFICATION_CODE with your actual code -->
+    <meta name="google-site-verification" content="VERIFICATION_CODE" />
+    
+    <!-- Google Analytics - Replace G-XXXXXXXXXX with your actual ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', {
+        page_title: 'Place of Grace Community Centre',
+        page_location: 'https://www.placeofgracecommunitycentre.org',
+        custom_map: {
+          'custom_dimension1': 'organization_type',
+          'custom_dimension2': 'location'
+        }
+      });
+      gtag('config', 'G-XXXXXXXXXX', {
+        'custom_dimension1': 'non_profit',
+        'custom_dimension2': 'kenya'
+      });
+    </script>
+    
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
@@ -66,12 +89,20 @@
         "addressRegion": "Nairobi",
         "addressLocality": "Kenya"
       },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+254-722-869-321",
-        "email": "placeofgraceoutreach@gmail.com",
-        "contactType": "customer service"
-      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+254-722-860-321",
+          "email": "pogchome2019@gmail.com",
+          "contactType": "customer service"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+254-722-860-321",
+          "email": "placeofgraceoutreach@gmail.com",
+          "contactType": "outreach"
+        }
+      ],
       "sameAs": [
         "https://www.facebook.com/placeofgracecommunitycentre",
         "https://www.instagram.com/placeofgracecommunitycentre",
@@ -131,12 +162,20 @@
         "addressRegion": "Nairobi",
         "addressLocality": "Kenya"
       },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+254-722-869-321",
-        "email": "placeofgraceoutreach@gmail.com",
-        "contactType": "customer service"
-      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+254-722-860-321",
+          "email": "pogchome2019@gmail.com",
+          "contactType": "customer service"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+254-722-860-321",
+          "email": "placeofgraceoutreach@gmail.com",
+          "contactType": "outreach"
+        }
+      ],
       "sameAs": [
         "https://www.facebook.com/placeofgracecommunitycentre",
         "https://www.instagram.com/placeofgracecommunitycentre",
