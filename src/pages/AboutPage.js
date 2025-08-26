@@ -16,11 +16,11 @@ const AboutPage = () => {
   // Team members data
   const teamMembers = [
     {
-      name: "Maria Kioko",
+      name: "Penina Kioko",
       role: "Founder (Late)",
       bio: "Founder and visionary leader who established Place of Grace in 2009, providing strategic direction and ensuring our mission continues to transform lives.",
       image: "/assets/photos/team/maria-kioko.jpg",
-      phone: "+254 722 860 321",
+     
       email: "placeofgraceoutreach@gmail.com",
       initials: "MK"
     },
@@ -38,7 +38,7 @@ const AboutPage = () => {
       role: "Board Chair",
       bio: "Providing strategic direction and governance oversight to ensure our mission continues to transform lives and build brighter futures.",
       image: "/assets/photos/team/johnston-kioko.jpg",
-      phone: "+254 722 860 321",
+      phone: "+254 722 556 382",
       email: "placeofgraceoutreach@gmail.com",
       initials: "JK"
     },
@@ -56,7 +56,7 @@ const AboutPage = () => {
       role: "Media and Publicity",
       bio: "Managing our communications, public relations, and media outreach to raise awareness and build support for our mission and children.",
       image: "/assets/photos/team/julius-ndukuthyo.jpg",
-      phone: "+254 722 860 321",
+      phone: "+254 727 514 057",
       email: "placeofgraceoutreach@gmail.com",
       initials: "JN"
     }
@@ -174,7 +174,7 @@ const AboutPage = () => {
               small initiative has grown into a comprehensive care facility that has touched hundreds of lives.
             </p>
             <p>
-              Our journey began when our founder, Johnston Kioko, witnessed the plight of children 
+              Our journey began when our founder, the late Penina Kioko, witnessed the plight of children 
               living on the streets and in unsafe conditions. Moved by compassion, he established 
               a safe haven where these children could find love, education, and a chance for a better future.
             </p>
@@ -271,6 +271,7 @@ const AboutPage = () => {
                           <a href={`tel:${member.phone}`} className="contact-link phone-link">
                             📞 {member.phone}
                           </a>
+                         
                         </div>
                       </div>
                     </div>

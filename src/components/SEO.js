@@ -23,8 +23,8 @@ const SEO = ({
   // Default values
   const defaultTitle = "Place of Grace Children's Home Kenya | Support Vulnerable Children";
   const defaultDescription = "Help vulnerable children in Nairobi, Kenya through our education, healthcare & rehabilitation programs. Donate, volunteer, or sponsor a child today. Contact: +254 722 860 321";
-  const defaultImage = "https://placeofgrace.org/og-image.jpg";
-  const defaultUrl = "https://placeofgrace.org";
+  const defaultImage = "https://www.placeofgracecommunitycentre.org/assets/logo.jpg";
+  const defaultUrl = "https://www.placeofgracecommunitycentre.org";
   const siteName = "Place of Grace Children's Home";
 
   // Construct full title
@@ -113,7 +113,7 @@ export const seoConfigs = {
       "@type": "WebPage",
       "name": "Home - Place of Grace Children's Home",
       "description": "Support vulnerable children in Kenya through comprehensive care programs",
-      "url": "https://placeofgrace.org/"
+      "url": "https://www.placeofgracecommunitycentre.org/"
     }
   },
   

@@ -136,23 +136,54 @@ const ContactPage = () => {
       <section className="contact-info">
         <div className="container">
           <div className="contact-grid">
-            <div className="contact-card">
+            <div className="contact-card email-card">
               <div className="contact-icon">📧</div>
               <h3>Email Us</h3>
-              <p>Send us a message and we'll get back to you as soon as possible.</p>
-              <div className="contact-email">
-                <strong>pogchome2019@gmail.com</strong>
+              <p>We have two dedicated email addresses for different types of inquiries. Choose the most appropriate one for your message.</p>
+              
+              <div className="email-options">
+                <div className="email-option primary-email">
+                  <div className="email-header">
+                    <span className="email-label">Primary Contact</span>
+                    <span className="email-badge">Main</span>
+                  </div>
+                  <div className="email-address">
+                    <strong>pogchome2019@gmail.com</strong>
+                  </div>
+                  <p className="email-purpose">General inquiries, donations, and main communications</p>
+                  <button 
+                    className="contact-action-btn primary"
+                    onClick={() => handleEmailClick(
+                      'pogchome2019@gmail.com',
+                      'Inquiry from Website',
+                      'Hello, I would like to learn more about your organization and how I can help.'
+                    )}
+                  >
+                    Send Message
+                  </button>
+                </div>
+                
+                <div className="email-option secondary-email">
+                  <div className="email-header">
+                    <span className="email-label">Outreach & Partnerships</span>
+                    <span className="email-badge">Outreach</span>
+                  </div>
+                  <div className="email-address">
+                    <strong>placeofgraceoutreach@gmail.com</strong>
+                  </div>
+                  <p className="email-purpose">Partnerships, media inquiries, and community outreach</p>
+                  <button 
+                    className="contact-action-btn secondary"
+                    onClick={() => handleEmailClick(
+                      'placeofgraceoutreach@gmail.com',
+                      'Outreach Inquiry from Website',
+                      'Hello, I would like to discuss partnership opportunities or outreach initiatives with your organization.'
+                    )}
+                  >
+                    Send Message
+                  </button>
+                </div>
               </div>
-              <button 
-                className="contact-action-btn primary"
-                onClick={() => handleEmailClick(
-                  'pogchome2019@gmail.com',
-                  'Inquiry from Website',
-                  'Hello, I would like to learn more about your organization and how I can help.'
-                )}
-              >
-                Send us a message
-              </button>
             </div>
             
             <div className="contact-card">

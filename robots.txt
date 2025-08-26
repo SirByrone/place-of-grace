@@ -1,11 +1,13 @@
 # Place of Grace Children's Home - Robots.txt
-# Optimized for SEO and security
+# Optimized for SEO and security - Enhanced for ALL search engines
 
 User-agent: *
 Allow: /
 
 # Sitemap location
 Sitemap: https://www.placeofgracecommunitycentre.org/sitemap.xml
+Sitemap: https://www.placeofgracecommunitycentre.org/sitemap-news.xml
+Sitemap: https://www.placeofgracecommunitycentre.org/sitemap-image.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
@@ -21,9 +23,6 @@ Allow: /transparency/
 Allow: /impact/
 Allow: /inclusion/
 Allow: /faq/
-Allow: /donate/
-Allow: /volunteer/
-Allow: /sponsor/
 
 # Disallow admin and private areas
 Disallow: /admin/
@@ -81,46 +80,144 @@ Disallow: /*.sql$
 Disallow: /*.db$
 Disallow: /*.sqlite$
 
-# Specific search engine directives
+# Enhanced search engine directives for maximum visibility
+
+# Google (Primary)
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
 
+User-agent: Googlebot-Image
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-News
+Allow: /
+Crawl-delay: 1
+
+# Bing (Microsoft)
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
 
-User-agent: Slurp
-Allow: /
-Crawl-delay: 2
-
-User-agent: DuckDuckBot
+User-agent: msnbot
 Allow: /
 Crawl-delay: 1
 
-User-agent: Baiduspider
+User-agent: msnbot-media
 Allow: /
-Crawl-delay: 2
+Crawl-delay: 1
 
+# Yandex (Russia & Eastern Europe)
 User-agent: YandexBot
 Allow: /
 Crawl-delay: 2
 
+User-agent: YandexMobileBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexDirect
+Allow: /
+Crawl-delay: 2
+
+# Baidu (China & Asia)
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: Baiduspider-image
+Allow: /
+Crawl-delay: 2
+
+User-agent: Baiduspider-video
+Allow: /
+Crawl-delay: 2
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Yahoo (uses Bing's index)
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Facebook
 User-agent: facebookexternalhit
 Allow: /
 Crawl-delay: 1
 
+User-agent: facebookcatalog
+Allow: /
+Crawl-delay: 1
+
+# Twitter
 User-agent: Twitterbot
 Allow: /
 Crawl-delay: 1
 
+# LinkedIn
 User-agent: LinkedInBot
 Allow: /
 Crawl-delay: 1
 
+# WhatsApp
 User-agent: WhatsApp
 Allow: /
 Crawl-delay: 1
+
+# Instagram
+User-agent: Instagram
+Allow: /
+Crawl-delay: 1
+
+# Pinterest
+User-agent: Pinterest
+Allow: /
+Crawl-delay: 1
+
+# Snapchat
+User-agent: Snapchat
+Allow: /
+Crawl-delay: 1
+
+# TikTok
+User-agent: TikTok
+Allow: /
+Crawl-delay: 1
+
+# Regional Search Engines
+
+# Naver (South Korea)
+User-agent: Yeti
+Allow: /
+Crawl-delay: 2
+
+# Seznam (Czech Republic)
+User-agent: SeznamBot
+Allow: /
+Crawl-delay: 2
+
+# Qwant (France)
+User-agent: Qwantify
+Allow: /
+Crawl-delay: 2
+
+# Ecosia
+User-agent: EcosiaBot
+Allow: /
+Crawl-delay: 1
+
+# Archive.org
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 10
 
 # Block aggressive crawlers
 User-agent: AhrefsBot
@@ -136,6 +233,15 @@ User-agent: SemrushBot
 Crawl-delay: 10
 
 User-agent: Screaming Frog SEO Spider
+Crawl-delay: 10
+
+User-agent: rogerbot
+Crawl-delay: 10
+
+User-agent: Exabot
+Crawl-delay: 10
+
+User-agent: BLEXBot
 Crawl-delay: 10
 
 # Block malicious bots
@@ -164,3 +270,21 @@ Disallow: /.bzr/
 
 # Host directive
 Host: https://www.placeofgracecommunitycentre.org
+
+# Additional directives for better indexing
+# Allow crawling of important content
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /manifest.json
+Allow: /assets/logo.jpg
+Allow: /assets/photos/
+
+# Optimize for mobile and AMP
+Allow: /amp/
+Allow: /mobile/
+Allow: /responsive/
+
+# Allow social media previews
+Allow: /social/
+Allow: /share/
+Allow: /embed/

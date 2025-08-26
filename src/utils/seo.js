@@ -177,7 +177,7 @@ export const generateMetaTags = (pageData) => {
 
   const baseUrl = 'https://www.placeofgracecommunitycentre.org';
   const fullUrl = url ? `${baseUrl}${url}` : baseUrl;
-  const fullImage = image ? `${baseUrl}${image}` : `${baseUrl}/og-image.jpg`;
+  const fullImage = image ? `${baseUrl}${image}` : `${baseUrl}/assets/logo.jpg`;
 
   const defaultKeywords = [
     'Place of Grace',
@@ -341,19 +341,19 @@ export const generateSocialMeta = (pageData) => {
     facebook: {
       title: title || 'Place of Grace Community Centre',
       description: description || 'Empowering children and communities in Kenya',
-      image: image ? `${baseUrl}${image}` : `${baseUrl}/og-image.jpg`,
+      image: image ? `${baseUrl}${image}` : `${baseUrl}/assets/logo.jpg`,
       url: url ? `${baseUrl}${url}` : baseUrl
     },
     twitter: {
       title: title || 'Place of Grace Community Centre',
       description: description || 'Empowering children and communities in Kenya',
-      image: image ? `${baseUrl}${image}` : `${baseUrl}/og-image.jpg`,
+      image: image ? `${baseUrl}${image}` : `${baseUrl}/assets/logo.jpg`,
       url: url ? `${baseUrl}${url}` : baseUrl
     },
     linkedin: {
       title: title || 'Place of Grace Community Centre',
       description: description || 'Empowering children and communities in Kenya',
-      image: image ? `${baseUrl}${image}` : `${baseUrl}/og-image.jpg`,
+      image: image ? `${baseUrl}${image}` : `${baseUrl}/assets/logo.jpg`,
       url: url ? `${baseUrl}${url}` : baseUrl
     }
   };

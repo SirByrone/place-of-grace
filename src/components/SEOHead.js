@@ -117,7 +117,7 @@ export const SEOConfigs = {
     title: 'Place of Grace Community Centre - Empowering Children & Communities in Kenya',
     description: 'Place of Grace Community Centre is a non-profit organization dedicated to providing education, healthcare, and support to vulnerable children and communities in Kenya. Join us in making a difference.',
     keywords: 'Place of Grace, Community Centre, Kenya, children\'s home, education, healthcare, non-profit, charity, orphanage, community development',
-    image: '/og-image.jpg',
+    image: '/assets/logo.jpg',
     ogType: 'website',
     structuredData: {
       '@context': 'https://schema.org',

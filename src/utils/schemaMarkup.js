@@ -3,7 +3,7 @@
  * Creates structured data for enhanced SEO and rich snippets
  */
 
-export const SCHEMA_BASE_URL = 'https://placeofgrace.org';
+export const SCHEMA_BASE_URL = 'https://www.placeofgracecommunitycentre.org';
 
 // Organization Schema (Main)
 export const generateOrganizationSchema = () => ({
@@ -21,7 +21,7 @@ export const generateOrganizationSchema = () => ({
   },
   "image": {
     "@type": "ImageObject",
-    "url": `${SCHEMA_BASE_URL}/og-image.jpg`,
+    "url": `${SCHEMA_BASE_URL}/assets/logo.jpg`,
     "width": 1200,
     "height": 630
   },
@@ -134,7 +134,7 @@ export const generateLocalBusinessSchema = () => ({
   "@type": "LocalBusiness",
   "@id": `${SCHEMA_BASE_URL}/#localbusiness`,
   "name": "Place of Grace Children's Home",
-  "image": `${SCHEMA_BASE_URL}/og-image.jpg`,
+  "image": `${SCHEMA_BASE_URL}/assets/logo.jpg`,
   "telephone": "+254722860321",
   "email": "placeofgraceoutreach@gmail.com",
   "address": {
@@ -202,7 +202,7 @@ export const generateArticleSchema = (article) => ({
   "@type": "Article",
   "headline": article.title,
   "description": article.description || article.excerpt,
-  "image": article.image ? `${SCHEMA_BASE_URL}${article.image}` : `${SCHEMA_BASE_URL}/og-image.jpg`,
+  "image": article.image ? `${SCHEMA_BASE_URL}${article.image}` : `${SCHEMA_BASE_URL}/assets/logo.jpg`,
   "author": {
     "@type": "Organization",
     "name": "Place of Grace Children's Home",
@@ -252,7 +252,7 @@ export const generateEventSchema = (event) => ({
       "addressCountry": "KE"
     }
   },
-  "image": event.image ? `${SCHEMA_BASE_URL}${event.image}` : `${SCHEMA_BASE_URL}/og-image.jpg`,
+  "image": event.image ? `${SCHEMA_BASE_URL}${event.image}` : `${SCHEMA_BASE_URL}/assets/logo.jpg`,
   "organizer": {
     "@type": "Organization",
     "name": "Place of Grace Children's Home",

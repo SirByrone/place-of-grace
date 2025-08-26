@@ -20,7 +20,7 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/og-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/logo.jpg</image:loc>
       <image:title>Place of Grace Community Centre - Empowering Children & Communities in Kenya</image:title>
       <image:caption>Children and staff at Place of Grace Community Centre</image:caption>
     </image:image>
@@ -33,7 +33,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/about-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/photos/team/founder-with-child-2024.jpg</image:loc>
       <image:title>About Place of Grace Community Centre</image:title>
       <image:caption>Our mission and vision for empowering children in Kenya</image:caption>
     </image:image>
@@ -46,7 +46,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/programs-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/photos/facilities/education-support.jpg</image:loc>
       <image:title>Our Programs - Education & Healthcare Services</image:title>
       <image:caption>Comprehensive programs for children and community development</image:caption>
     </image:image>
@@ -59,7 +59,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/gallery-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/photos/children/children-learning-2024.jpg</image:loc>
       <image:title>Photo Gallery - Our Children & Activities</image:title>
       <image:caption>Photos and videos showcasing our children and activities</image:caption>
     </image:image>
@@ -72,7 +72,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/contact-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/photos/facilities/main-building-2024.jpg</image:loc>
       <image:title>Contact Us - Get in Touch</image:title>
       <image:caption>Contact information and ways to reach us</image:caption>
     </image:image>
@@ -85,7 +85,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/get-involved-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/photos/events/volunteer-day-2024.jpg</image:loc>
       <image:title>Get Involved - Donate, Volunteer, Sponsor</image:title>
       <image:caption>Ways to support our mission and help children in Kenya</image:caption>
     </image:image>
@@ -98,7 +98,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/impact-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/photos/children/children-playing-2024.jpg</image:loc>
       <image:title>Our Impact - Making a Difference in Kenya</image:title>
       <image:caption>Success stories and achievements of our programs</image:caption>
     </image:image>
@@ -111,7 +111,7 @@
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/news-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/photos/events/graduation-2024.jpg</image:loc>
       <image:title>News & Updates - Latest News</image:title>
       <image:caption>Latest news, events, and updates from our organization</image:caption>
     </image:image>
@@ -124,7 +124,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/transparency-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/photos/facilities/main-building-2024.jpg</image:loc>
       <image:title>Transparency - Financial Reports & Accountability</image:title>
       <image:caption>Financial reports and accountability information</image:caption>
     </image:image>
@@ -137,7 +137,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/inclusion-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/photos/children/children-art-2024.jpg</image:loc>
       <image:title>Inclusion & Diversity - Equal Opportunities</image:title>
       <image:caption>Our commitment to inclusion and diversity</image:caption>
     </image:image>
@@ -150,48 +150,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/faq-image.jpg</image:loc>
+      <image:loc>https://www.placeofgracecommunitycentre.org/assets/photos/facilities/psychosocial-support.jpg</image:loc>
       <image:title>FAQ - Frequently Asked Questions</image:title>
       <image:caption>Answers to frequently asked questions about our organization</image:caption>
-    </image:image>
-  </url>
-
-  <!-- Donate Page (if separate) -->
-  <url>
-    <loc>https://www.placeofgracecommunitycentre.org/donate</loc>
-    <lastmod>2024-12-19T10:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/donate-image.jpg</image:loc>
-      <image:title>Donate - Support Our Mission</image:title>
-      <image:caption>Make a donation to support children in Kenya</image:caption>
-    </image:image>
-  </url>
-
-  <!-- Volunteer Page (if separate) -->
-  <url>
-    <loc>https://www.placeofgracecommunitycentre.org/volunteer</loc>
-    <lastmod>2024-12-19T10:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/volunteer-image.jpg</image:loc>
-      <image:title>Volunteer - Join Our Team</image:title>
-      <image:caption>Volunteer opportunities at Place of Grace Community Centre</image:caption>
-    </image:image>
-  </url>
-
-  <!-- Sponsor Page (if separate) -->
-  <url>
-    <loc>https://www.placeofgracecommunitycentre.org/sponsor</loc>
-    <lastmod>2024-12-19T10:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.placeofgracecommunitycentre.org/sponsor-image.jpg</image:loc>
-      <image:title>Sponsor a Child - Make a Difference</image:title>
-      <image:caption>Sponsor a child and make a lasting impact</image:caption>
     </image:image>
   </url>
 
