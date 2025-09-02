@@ -1,0 +1,50 @@
+# Place of Grace Children's Home - Robots.txt
+# Optimized for SEO and security
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /static/
+
+# Disallow sensitive or duplicate content
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*?
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Allow important resources
+Allow: /manifest.json
+Allow: /sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://placeofgrace.org/sitemap.xml
+
+# Special instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Block aggressive crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /

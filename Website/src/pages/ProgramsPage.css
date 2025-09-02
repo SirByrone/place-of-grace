@@ -1,0 +1,273 @@
+.programs-page {
+  min-height: 100vh;
+}
+
+.programs-page .hero-section {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.programs-page .hero-section h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.programs-page .hero-subtitle {
+  font-size: clamp(1.1rem, 2.5vw, 1.3rem);
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.programs-overview {
+  padding: 60px 0;
+  background-color: #f8fafc;
+}
+
+.overview-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.overview-content h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+}
+
+.overview-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #475569;
+}
+
+.programs-list {
+  padding: 60px 0;
+}
+
+.program-item {
+  margin-bottom: 80px;
+}
+
+.program-item:last-child {
+  margin-bottom: 0;
+}
+
+.program-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.program-item.right .program-content {
+  direction: rtl;
+}
+
+.program-item.right .program-text {
+  direction: ltr;
+}
+
+.program-text h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.program-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+.program-features {
+  list-style: none;
+  padding: 0;
+}
+
+.program-features li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.program-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: bold;
+}
+
+.program-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.program-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.program-image:hover img {
+  transform: scale(1.05);
+}
+
+.impact-stats {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.impact-stats h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  margin-bottom: 3rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stat-item h3 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #fbbf24;
+}
+
+.stat-item p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.get-involved-cta {
+  padding: 60px 0;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.get-involved-cta h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.get-involved-cta p {
+  font-size: 1.1rem;
+  color: #475569;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.cta-button.primary {
+  background-color: #1e3a8a;
+  color: white;
+}
+
+.cta-button.primary:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+}
+
+.cta-button.secondary {
+  background-color: transparent;
+  color: #1e3a8a;
+  border: 2px solid #1e3a8a;
+}
+
+.cta-button.secondary:hover {
+  background-color: #1e3a8a;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .program-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .program-item.right .program-content {
+    direction: ltr;
+  }
+
+  .program-image img {
+    height: 250px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-button {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .program-features li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .program-image img,
+  .cta-button {
+    transition: none;
+  }
+}
+
+@media (prefers-contrast: high) {
+  .program-text h3 {
+    color: #000;
+  }
+
+  .program-text p {
+    color: #333;
+  }
+} 

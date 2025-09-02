@@ -1,0 +1,441 @@
+/* About Page Styles */
+.about-page {
+  padding: 2rem 0;
+  background-color: #ffffff;
+}
+
+/* Hero Section */
+.about-hero {
+  text-align: center;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #001f4c 0%, #003366 100%);
+  color: white;
+  margin-bottom: 4rem;
+  border-radius: 0 0 20px 20px;
+}
+
+.about-hero h1 {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+/* Mission & Vision Section */
+.mission-vision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.mission-card,
+.vision-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 31, 76, 0.1);
+  border-left: 5px solid #FFD700;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-card:hover,
+.vision-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 31, 76, 0.15);
+}
+
+.mission-card h2,
+.vision-card h2 {
+  color: #001f4c;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+/* Our Story Section */
+.our-story {
+  margin-bottom: 4rem;
+}
+
+.our-story h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #001f4c;
+}
+
+.story-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.story-text p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.story-image img {
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.story-image img:hover {
+  transform: scale(1.02);
+}
+
+/* Dignity Section */
+.dignity-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 4rem 0;
+  margin-bottom: 4rem;
+  border-radius: 20px;
+}
+
+.dignity-section h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #001f4c;
+}
+
+.dignity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.dignity-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-top: 4px solid #FFD700;
+}
+
+.dignity-card:hover {
+  transform: translateY(-5px);
+}
+
+.dignity-card h3 {
+  color: #001f4c;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.dignity-card p {
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Values Section */
+.values-section {
+  margin-bottom: 4rem;
+}
+
+.values-section h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #001f4c;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.value-card {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  border-color: #FFD700;
+}
+
+.value-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.value-card h3 {
+  color: #001f4c;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.value-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Team Section */
+.team-section {
+  background: linear-gradient(135deg, #001f4c 0%, #003366 100%);
+  padding: 4rem 0;
+  margin-bottom: 4rem;
+  border-radius: 20px;
+  color: white;
+}
+
+.team-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.team-intro {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.team-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  object-fit: cover;
+  border: 4px solid #FFD700;
+}
+
+.team-card h3 {
+  color: #001f4c;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.team-role {
+  color: #FFD700;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.team-bio {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Inclusion Section */
+.inclusion-section {
+  margin-bottom: 4rem;
+}
+
+.inclusion-section h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #001f4c;
+}
+
+.inclusion-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.inclusion-text p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.inclusion-text ul {
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+
+.inclusion-text li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.learn-more-button {
+  display: inline-block;
+  background: #001f4c;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.learn-more-button:hover {
+  background: #FFD700;
+  color: #001f4c;
+  transform: translateY(-2px);
+}
+
+.inclusion-image img {
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.inclusion-image img:hover {
+  transform: scale(1.02);
+}
+
+/* Call to Action */
+.about-cta {
+  text-align: center;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 4rem 2rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+
+.about-cta h2 {
+  color: #001f4c;
+  margin-bottom: 1.5rem;
+}
+
+.about-cta p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.cta-button.primary {
+  background: #001f4c;
+  color: white;
+}
+
+.cta-button.primary:hover {
+  background: #FFD700;
+  color: #001f4c;
+  transform: translateY(-2px);
+}
+
+.cta-button.secondary {
+  background: transparent;
+  color: #001f4c;
+  border-color: #001f4c;
+}
+
+.cta-button.secondary:hover {
+  background: #001f4c;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 2rem 1rem;
+  }
+  
+  .mission-vision {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .story-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .inclusion-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta-button {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-page {
+    padding: 1rem 0;
+  }
+  
+  .mission-card,
+  .vision-card,
+  .dignity-card,
+  .value-card,
+  .team-card {
+    padding: 1.5rem;
+  }
+  
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+} 
